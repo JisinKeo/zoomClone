@@ -1,9 +1,10 @@
 {
   "name": "zoom",
   "version": "1.0.0",
-  "description": "",
+  "description": "Zoom Clone using NodeJS, WebRTC and Websockets",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/JisinKeo/zoomClone/issues"
   },
-  "homepage": "https://github.com/JisinKeo/zoomClone#readme"
+  "homepage": "https://github.com/JisinKeo/zoomClone#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
 }

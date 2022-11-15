@@ -1,6 +1,6 @@
 import http from "http";
 import WebSocket from "ws";
-import express from "express";
+import express from "express"; // npm i express 설치
 
 const app = express();
 
